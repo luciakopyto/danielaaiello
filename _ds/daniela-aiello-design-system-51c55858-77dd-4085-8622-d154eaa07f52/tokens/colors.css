@@ -1,0 +1,58 @@
+/* Daniela Aiello — Color tokens
+   Brand palette sampled from the 2026 Manual de Marca:
+   petrol/deep-teal + signal red on warm, paper-white neutrals. */
+:root {
+  /* ---- Brand: Petrol (primary brand dark) ---- */
+  --da-petrol-900: #022730;
+  --da-petrol-800: #033240;
+  --da-petrol:     #033C4D; /* core brand petrol */
+  --da-petrol-600: #0b4a5c;
+  --da-petrol-500: #1c5d6f;
+  --da-petrol-400: #3a7686;
+  --da-petrol-200: #9cbcc4;
+  --da-petrol-100: #d3e1e5;
+  --da-petrol-50:  #eef4f5;
+
+  /* ---- Brand: Red (signal / CTA) ---- */
+  --da-red-700: #a8040e;
+  --da-red-600: #c00511;
+  --da-red:     #E20613; /* core brand red */
+  --da-red-400: #ef4350;
+  --da-red-100: #fbd6d8;
+  --da-red-50:  #fdeced;
+
+  /* ---- Neutrals: warm, paper + stone (matches wood/sand imagery) ---- */
+  --da-white:     #FFFFFF;
+  --da-paper:     #FAF8F4; /* warm off-white surface */
+  --da-sand-100:  #F2EDE6;
+  --da-sand-200:  #E6DFD5;
+  --da-stone-300: #D2CABE;
+  --da-stone-400: #B4AB9D;
+  --da-stone-500: #8C857A;
+  --da-stone-600: #635E56;
+  --da-stone-700: #423F3A;
+  --da-ink:       #14201F; /* near-black with a petrol cast */
+
+  /* ---- Semantic aliases ---- */
+  --color-bg:            var(--da-paper);
+  --color-surface:       var(--da-white);
+  --color-surface-sunken:var(--da-sand-100);
+  --color-surface-dark:  var(--da-petrol);
+
+  --text-strong:   var(--da-ink);
+  --text-body:     var(--da-stone-700);
+  --text-muted:    var(--da-stone-500);
+  --text-on-dark:  var(--da-white);
+  --text-on-dark-muted: var(--da-petrol-200);
+
+  --color-primary:        var(--da-petrol);
+  --color-primary-hover:  var(--da-petrol-800);
+  --color-accent:         var(--da-red);
+  --color-accent-hover:   var(--da-red-600);
+
+  --border-subtle: var(--da-sand-200);
+  --border-default:var(--da-stone-300);
+  --border-strong: var(--da-stone-400);
+
+  --focus-ring: var(--da-petrol-400);
+}
